@@ -165,7 +165,6 @@
   font-size: 0.9rem;
   background-color: #faf9f6;
   cursor: pointer;
-
   border-bottom: 1px solid black;
 }
 
@@ -303,14 +302,19 @@
     height: 30px;
   }
 
-  .no-need-container {
-    margin-left: 20px;
-    width: 80%;
-    text-wrap: nowrap;
+  .no-need-container > img:first-of-type {
+    width: 30px;
+    margin-left: 0px;
   }
 
-  #hiding-arrow {
-    /* left: -130px; */
+  .no-need-container > img:last-of-type {
+    width: 30px;
+  }
+
+  .no-need-container {
+    margin-left: 20px;
+    /* width: 100%; */
+    text-wrap: nowrap;
   }
 
   #shy-div {
