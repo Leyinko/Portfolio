@@ -17,9 +17,9 @@ footer.innerHTML = footerTemplate;
 const aside = document.querySelector('aside');
 
 const linkAndHref = {
-  'src/assets/icons/github.svg': 'https://github.com/Leyinko',
-  'src/assets/icons/discord.svg': 'https://discordapp.com/users/324998120553447425',
-  'src/assets/icons/codewars.svg': 'https://www.codewars.com/users/Leyinko',
+  '/assets/icons/github.svg': 'https://github.com/Leyinko',
+  '/assets/icons/discord.svg': 'https://discordapp.com/users/324998120553447425',
+  '/assets/icons/codewars.svg': 'https://www.codewars.com/users/Leyinko',
 };
 
 const keyValuePair = Object.entries(linkAndHref);

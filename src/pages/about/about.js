@@ -48,7 +48,7 @@ export function initAboutText() {
 
 // > Inside Container >
 
-const xClickIcon = 'src/assets/img/Profile-X-A.png';
+const xClickIcon = '/assets/img/Profile-X-A.png';
 
 function initAboutImagesXLogo() {
   //

@@ -4,9 +4,9 @@ import './styles.css';
 const header = document.createElement('header');
 document.body.insertBefore(header, document.body.firstChild);
 
-let mailIcon = 'src/assets/icons/mail.svg';
-let startIcon = 'src/assets/icons/start.svg';
-let secretPortrait = 'src/assets/icons/portrait.svg';
+let mailIcon = '/assets/icons/mail.svg';
+let startIcon = '/assets/icons/start.svg';
+let secretPortrait = '/assets/icons/portrait.svg';
 
 const headerTemplate = `
 	<div>

@@ -90,10 +90,10 @@ function buttonHits() {
 
 // > Intro Container >
 
-let arrowIcon = 'src/assets/icons/arrow-gift.svg';
-let heartIcon = 'src/assets/icons/heart.png';
-let eyeIcon = 'src/assets/icons/eye.png';
-let coolGestureIcon = 'src/assets/icons/cool-gesture.svg';
+let arrowIcon = '/assets/icons/arrow-gift.svg';
+let heartIcon = '/assets/icons/heart.png';
+let eyeIcon = '/assets/icons/eye.png';
+let coolGestureIcon = '/assets/icons/cool-gesture.svg';
 
 let firstLine = document.querySelector('#top');
 firstLine.innerHTML = `    HELLO<img src='${coolGestureIcon}'>`;

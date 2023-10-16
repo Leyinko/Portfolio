@@ -39,30 +39,30 @@ export const picturesClicking = [
 ];
 
 export const techIcons = {
-  HTML: 'src/assets/icons/tech-icons/html-5.svg',
-  CSS: 'src/assets/icons/tech-icons/css-3.svg',
-  JS: 'src/assets/icons/tech-icons/js.svg',
-  VSC: 'src/assets/icons/tech-icons/vs.svg',
-  NOTION: 'src/assets/icons/tech-icons/notion.svg',
+  HTML: '/assets/icons/tech-icons/html-5.svg',
+  CSS: '/assets/icons/tech-icons/css-3.svg',
+  JS: '/assets/icons/tech-icons/js.svg',
+  VSC: '/assets/icons/tech-icons/vs.svg',
+  NOTION: '/assets/icons/tech-icons/notion.svg',
 };
 
 export const projectsInfo = [
   {
-    image: 'src/assets/img/projects-images/Interactive-Web-Responsive.png',
+    image: '/assets/img/projects-images/Interactive-Web-Responsive.png',
     project_title: 'WEB RESPONSIVE DESIGN',
     project_description: `This project involves redesigning the homepage of a Figma account. The goal was to re-create a modern, visually engaging layout that seamlessly adapts to different devices and screen sizes.`,
     project_link: 'https://github.com/Leyinko/Figma-Homepage-Responsive',
     technologies_used: [techIcons.HTML, techIcons.CSS],
   },
   {
-    image: 'src/assets/img/projects-images/Your-Local-Local-Storage.png',
+    image: '/assets/img/projects-images/Your-Local-Local-Storage.png',
     project_title: 'LOCAL STORAGE API',
     project_description: `Originally made as a Local Storage API test, this project allows you to access and control your own Local Storage, recognizing three data type and organizing data into variables, arrays, or objects.`,
     project_link: 'https://github.com/Leyinko/Your-local-localStorage',
     technologies_used: [techIcons.HTML, techIcons.CSS, techIcons.JS],
   },
   {
-    image: 'src/assets/img/projects-images/Full-Notion-Template.png',
+    image: '/assets/img/projects-images/Full-Notion-Template.png',
     project_title: 'NOTION TEMPLATE',
     project_description:
       'A personal organization template for effective task management, note-taking, and knowledge storage.',
@@ -70,14 +70,14 @@ export const projectsInfo = [
     technologies_used: [techIcons.NOTION],
   },
   {
-    image: 'src/assets/img/projects-images/AABS.png',
+    image: '/assets/img/projects-images/AABS.png',
     project_title: 'ALL ABOUT',
     project_description: `Little project designed to provide an interactive and user-friendly way to explore and test various JavaScript methods across different data types.`,
     project_link: 'https://github.com/Leyinko/AAB',
     technologies_used: [techIcons.VSC, techIcons.JS],
   },
   {
-    image: 'src/assets/img/projects-images/Soon.png',
+    image: '/assets/img/projects-images/Soon.png',
     project_title: 'SOON',
     project_description: '',
     project_link: 'https://media.tenor.com/JWtzBZzGDtEAAAAC/not-yet-you-wait.gif',
