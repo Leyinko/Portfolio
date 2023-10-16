@@ -63,8 +63,8 @@ header img:not(header div:first-child img) {
 }
 
 #back-to-start {
-  width: 60%;
-  height: 80%;
+  width: 45px;
+  height: 45px;
 }
 
 /* SECRET PORTRAIT  */
@@ -93,8 +93,8 @@ header > div:first-of-type {
   }
 
   #back-to-start {
-    width: 50%;
-    height: 70%;
+    width: 25px;
+    height: 25px;
   }
 }
 
