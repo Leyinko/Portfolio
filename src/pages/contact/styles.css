@@ -277,11 +277,13 @@
 
   .no-need-container {
     justify-content: end;
+    text-wrap: nowrap;
   }
 
   .catch-container h1 {
     font-size: 2.7rem;
     line-height: 40px;
+    text-wrap: nowrap;
   }
 
   .catch-container img {
@@ -306,10 +308,13 @@
     padding: 0px;
     width: 90%;
     overflow: visible;
+    text-wrap: nowrap;
   }
 
   #shy-div h1 {
+    width: fit-content;
     font-size: 2.7rem;
+    text-wrap: nowrap;
   }
 
   #shy-div h1:first-of-type {

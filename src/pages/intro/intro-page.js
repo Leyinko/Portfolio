@@ -1,12 +1,5 @@
 import { welcomeFallingLetters } from '../../functions/styles-functions';
-import { horizontalScroll } from '../../hooks/horizontal-scroll';
 import './styles.css';
-
-window.addEventListener('resize', horizontalScroll);
-
-window.addEventListener('load', () => {
-  window.scrollTo(0, 0);
-});
 
 let introContainer = document.createElement('section');
 introContainer.id = 'intro-container';
