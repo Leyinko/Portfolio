@@ -1,4 +1,4 @@
-import { projectsInfo } from '../../data/constants';
+import { projectsInfo } from '../../../public/data/constants';
 import './styles.css';
 
 let projectSection = document.createElement('section');

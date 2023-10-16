@@ -1,4 +1,4 @@
-import { formAutoFill } from '../../data/constants';
+import { formAutoFill } from '../../../public/data/constants';
 import './styles.css';
 
 let contactSection = document.createElement('section');

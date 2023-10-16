@@ -1,4 +1,4 @@
-import { picturesClicking } from '../../data/constants';
+import { picturesClicking } from '../../../public/data/constants';
 import './styles.css';
 
 let aboutSection = document.createElement('section');
