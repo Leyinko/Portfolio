@@ -217,7 +217,7 @@
   order: 1;
   width: 35px;
   height: 35px;
-  background-image: url('src/assets/icons/click-cursor.svg');
+  background-image: url('/assets/icons/click-cursor.svg');
   background-size: cover;
   background-position: center;
   cursor: pointer;

@@ -140,7 +140,7 @@ function loadTextDocument() {
     }
   };
 
-  xhttp.open('GET', 'src/data/Sweet_Paradox.json', true);
+  xhttp.open('GET', '/data/Sweet_Paradox.json', true);
   xhttp.send();
 }
 

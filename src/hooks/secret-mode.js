@@ -19,7 +19,7 @@ export function secretModeOn() {
   function reachThePortrait() {
     if (window.scrollY === 0) {
       let secret = document.querySelector('#portrait');
-      secret.setAttribute('href', 'src/assets/img/Well-done.gif');
+      secret.setAttribute('href', '/assets/img/Well-done.gif');
 
       secret.style.opacity = '1';
       secret.style.visibility = 'visible';

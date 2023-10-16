@@ -22,8 +22,8 @@ function initNoNeedPhrase() {
   const sayHi = document.createElement('span');
   sayHi.textContent = 'SAY HI';
 
-  const arrowRight = 'src/assets/icons/arrow-right-shy.svg';
-  const chat = 'src/assets/icons/chat.svg';
+  const arrowRight = '/assets/icons/arrow-right-shy.svg';
+  const chat = '/assets/icons/chat.svg';
 
   const noNeed = document.createElement('div');
   noNeed.className = 'no-need-container';
