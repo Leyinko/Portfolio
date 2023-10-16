@@ -270,6 +270,17 @@
     font-size: 0.9rem;
   }
 
+  .catch-container {
+    position: relative;
+    width: 80%;
+    height: 30%;
+    /* display: block; */
+    overflow: visible;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
   .catch-container span {
     font-size: 0.6rem;
     margin-top: 30px;
@@ -277,19 +288,19 @@
   }
 
   .no-need-container {
-    justify-content: space-between;
+    justify-content: center;
     text-wrap: nowrap;
   }
 
   .catch-container h1 {
-    font-size: 2.7rem;
+    font-size: 2rem;
     line-height: 40px;
     text-wrap: nowrap;
   }
 
   .catch-container img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
 
   .no-need-container {
@@ -304,17 +315,22 @@
 
   #shy-div {
     height: 50px;
-    justify-content: end;
+    justify-content: center;
     margin-left: 40px;
     padding: 0px;
-    width: 90%;
-    overflow: visible;
+    width: 100%;
+    /* overflow: visible; */
     text-wrap: nowrap;
+  }
+
+  #shy-div > img {
+    width: 40px;
+    object-fit: contain;
   }
 
   #shy-div h1 {
     width: fit-content;
-    font-size: 2.7rem;
+    font-size: 2rem;
     text-wrap: nowrap;
   }
 
@@ -324,7 +340,7 @@
   }
 
   #shy-div h1:last-of-type {
-    transform: translateX(-40px);
+    transform: translateX(-20px);
   }
 
   #form-container {

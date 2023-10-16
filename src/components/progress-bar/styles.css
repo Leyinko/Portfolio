@@ -22,6 +22,7 @@
   animation: appear-bottom-small 1s ease-in-out 7s backwards;
   transition: transform 0.4s ease-in-out;
   z-index: 99999;
+  opacity: 1;
 }
 
 @media screen and (max-width: 650px) {
