@@ -80,8 +80,7 @@
 }
 
 #logo:hover {
-  /* transform: scale(1.1); */
-  animation: shake-no-chat 2s infinite ease-in-out;
+  transform: scale(1.1);
 }
 
 .pop-up-container {

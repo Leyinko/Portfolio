@@ -3,9 +3,6 @@
 #### Web Development portfolio project.
 
 <img style="display:block; margin: 0 auto;" width="800" src="https://res.cloudinary.com/drft9abh4/image/upload/v1697467392/Proyecto%203%20-%20Portfolio/Intro_yzcdtj.png">
-<br>
-
-[https://portfolio-luca-giro.netlify.app/Home](https://portfolio-luca-giro.netlify.app/Home)
 
 <br>
 
@@ -39,6 +36,9 @@
 #### As a last word, I will have to let you in.
 
 <br>
+
+[https://portfolio-luca-giro.netlify.app/Home](https://portfolio-luca-giro.netlify.app/Home)
+<br>
 <br>
 
 ### SCREENSHOTS
@@ -47,7 +47,7 @@
 <br>
 <img width='80%' src="https://res.cloudinary.com/drft9abh4/image/upload/v1697467392/Proyecto%203%20-%20Portfolio/Projects_vgp2a8.png">
 <br>
-<img width='80%' src="https://res.cloudinary.com/drft9abh4/image/upload/v1697471390/Proyecto%203%20-%20Portfolio/Shy_dckqg9.png">
+<img width='80%' src="https://res.cloudinary.com/drft9abh4/image/upload/v1697473857/Proyecto%203%20-%20Portfolio/Shy_lqohuz.png">
 <br>
 <img width='80%' src="https://res.cloudinary.com/drft9abh4/image/upload/v1697467391/Proyecto%203%20-%20Portfolio/Contact_ewbbeq.png">
 <br>
