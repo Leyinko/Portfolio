@@ -1,0 +1,115 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px;
+  min-height: 60px;
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  animation: appear-top-big 1.5s ease-in-out forwards;
+  animation-delay: 6s;
+  opacity: 0;
+  z-index: 999;
+}
+
+#theme-container {
+  margin: 0px 0px 22px 45px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  height: 1.05rem;
+  border: 1px solid black;
+  border-radius: 0.6rem;
+  opacity: 0;
+  transition: opacity 1s ease-in-out 3s;
+  visibility: hidden;
+}
+
+.circle-toggle {
+  position: absolute;
+  left: 3px;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: black;
+  border-radius: 50%;
+  transition: transform 0.3s linear;
+}
+
+header > div:not(:nth-child(2)) {
+  padding: 3px;
+  width: 45px;
+  height: 45px;
+}
+
+header > div:last-child {
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+}
+
+header img:not(header div:first-child img) {
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#contact-mail {
+  transition: all 1s ease-in-out 1s;
+  background-color: black;
+  opacity: 0;
+}
+
+#back-to-start {
+  width: 60%;
+  height: 80%;
+}
+
+/* SECRET PORTRAIT  */
+
+header > div:first-of-type {
+  animation: heartbeat 0.4s infinite ease-in-out;
+}
+
+#portrait {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 650px) {
+  header {
+    padding: 25px 15px;
+  }
+
+  #contact-mail {
+    width: 30px;
+    height: 30px;
+  }
+
+  #back-to-start {
+    width: 50%;
+    height: 70%;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  header {
+    padding: 25px 15px;
+  }
+
+  #contact-mail {
+    width: 30px;
+    height: 30px;
+  }
+
+  #back-to-start {
+    width: 50%;
+    height: 70%;
+  }
+}

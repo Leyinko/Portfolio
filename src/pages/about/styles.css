@@ -1,0 +1,217 @@
+#about-container {
+  width: 70vw;
+  height: 80%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #faf9f6;
+}
+
+/*  */
+
+.title-about {
+  padding-left: 20px;
+  font-size: 1.6rem;
+  text-align: left;
+  z-index: 11;
+  opacity: 0;
+}
+
+.complete-text {
+  position: relative;
+  padding: 20px 15px 20px 20px;
+  animation: appear 2s ease-in-out;
+  background-color: #faf9f6;
+  z-index: 20;
+}
+
+.complete-text h2 {
+  position: relative;
+  font-size: 3.4rem;
+  letter-spacing: -2px;
+  background-color: #faf9f6;
+}
+
+.complete-text h2:first-of-type {
+  animation: open-split-to-top 3s ease-in-out forwards;
+}
+
+.complete-text h2:last-of-type {
+  animation: open-split-to-bot 3s ease-in-out forwards;
+}
+
+.insider-text {
+  display: block;
+  min-width: 300px;
+  font-size: 0.8rem;
+  letter-spacing: 0.02rem;
+  margin-bottom: 20px;
+  animation: appear 2s ease-in-out 1s forwards;
+  opacity: 0;
+}
+
+.photographs-container {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  height: 50%;
+  animation: appear 0.2s linear 2s forwards;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#logo-block {
+  display: flex;
+}
+
+#logo {
+  position: absolute;
+  left: 80%;
+  top: 13%;
+  height: 270px;
+  max-width: 270px;
+  min-width: 270px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  z-index: 100;
+}
+
+.pop-up-container {
+  width: 10%;
+  height: 400px;
+  animation: falling-letters 0.4s ease-out forwards;
+  z-index: -4;
+  outline: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.pop-up-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  transition: all 1s ease-in-out;
+}
+
+.end-pictures-effect {
+  position: absolute;
+  border: none;
+  top: 0px;
+  right: 0;
+  animation: cross-x 0.4s forwards ease-in;
+  z-index: 1000;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1280px) {
+  #logo {
+    top: 17%;
+    height: 150px;
+    max-width: 150px;
+    min-width: 150px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  #about-container {
+    height: 80%;
+  }
+
+  .title-about {
+    top: -30px;
+    width: 90%;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .complete-text {
+    height: 80%;
+    width: 100%;
+  }
+
+  .complete-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .insider-text {
+    font-size: 0.6rem;
+  }
+
+  .photographs-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  #logo {
+    top: 12%;
+    height: 100px;
+    max-width: 100px;
+    min-width: 100px;
+  }
+
+  .pop-up-container {
+    width: 20%;
+  }
+
+  .pop-up-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    transition: all 1s ease-in-out;
+  }
+}
+
+/* ! NEST HUB ! */
+
+@media screen and (max-height: 650px) {
+  #about-container {
+    height: 70%;
+  }
+
+  .title-about {
+    top: -30px;
+    width: 90%;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .complete-text {
+    height: 80%;
+    width: 100%;
+  }
+
+  .complete-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .insider-text {
+    font-size: 0.6rem;
+  }
+
+  .photographs-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  #logo {
+    top: 12%;
+    height: 100px;
+    max-width: 100px;
+    min-width: 100px;
+  }
+
+  .pop-up-container {
+    width: 20%;
+  }
+
+  .pop-up-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    transition: all 1s ease-in-out;
+  }
+}

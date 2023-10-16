@@ -1,0 +1,278 @@
+#intro-container {
+  width: 100vw;
+  height: 60%;
+  position: relative;
+  text-align: center;
+}
+
+#title-intro {
+  position: absolute;
+  top: -30px;
+  left: 25%;
+  letter-spacing: 2px;
+}
+
+.falling-animation span {
+  animation: falling-letters 1s ease-out forwards;
+  display: inline-block;
+  opacity: 0;
+  white-space: pre;
+}
+
+#intro-container div h2 {
+  position: absolute;
+  width: 100%;
+  font-size: 6rem;
+  animation: appear-bottom-big 2s ease-in-out 2s forwards;
+  overflow: hidden;
+  opacity: 0;
+  white-space: pre;
+}
+
+/* DIV HIDERS */
+
+.div-hide {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  background-color: #faf9f6;
+}
+
+.zero {
+  top: -350px;
+  height: 300px;
+}
+
+.one {
+  top: 120px;
+  z-index: 11;
+}
+
+.two {
+  top: 210px;
+  z-index: 13;
+}
+
+.three {
+  height: 100%;
+  top: 295px;
+  z-index: 15;
+}
+
+/* TEXT CONTAINER */
+
+#intro-container {
+  margin: 20px;
+}
+
+#intro-container h2 {
+  line-height: 80px;
+}
+
+#intro-container div img {
+  height: 70px;
+  width: 70px;
+  margin: 0px 20px;
+}
+
+#top {
+  top: 30px;
+  z-index: 1;
+}
+
+#top img {
+  animation: cross 0.5s both 4s infinite alternate;
+}
+
+#middle {
+  top: 120px;
+  z-index: 12;
+}
+
+#middle img {
+  animation: wink-animation 2s 3s infinite alternate-reverse;
+}
+
+#bottom {
+  top: 210px;
+  z-index: 14;
+}
+
+#bottom img {
+  animation: heartbeat 0.6s both 3.5s infinite alternate;
+}
+
+/* Bottom Container */
+
+#last-intro {
+  width: 100%;
+  margin-top: 30px;
+  z-index: 15;
+  transition: opacity 0.2s ease-in-out;
+  background-color: #faf9f6;
+}
+
+#last-intro > p {
+  max-width: 80%;
+  min-width: 70%;
+  margin: 0px auto 50px auto;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0;
+  animation: appear-bottom-small 1s ease-in-out forwards;
+  animation-delay: 4s;
+}
+
+#intro-container button {
+  position: relative;
+  margin-bottom: 50px;
+  padding-right: 19px;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: end;
+  text-wrap: nowrap;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  animation: button-growth 1s ease-in-out forwards;
+  animation-delay: 5s;
+  opacity: 0;
+}
+
+#intro-container button img {
+  position: absolute;
+  height: inherit;
+  top: 0px;
+  left: -24px;
+  background-color: black;
+  border-radius: 20px;
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+#hit-description {
+  color: rgba(0, 0, 0, 0.189);
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 15px;
+  opacity: 0;
+  animation: falling-letters 1s ease-out 3s forwards;
+  transition: all 1s ease-in-out;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 601px) {
+  #intro-container {
+    height: 70%;
+    width: 90vw;
+  }
+
+  #title-intro {
+    font-size: 1rem;
+    width: 60%;
+    left: 12px;
+    top: 40px;
+  }
+
+  #intro-container h2 {
+    line-height: 40px;
+  }
+
+  #intro-container div h2 {
+    position: absolute;
+    font-size: 3.6rem;
+    overflow: visible;
+  }
+
+  #intro-container div img {
+    height: 50px;
+    width: 50px;
+  }
+
+  #top {
+    top: 80px;
+  }
+
+  .one {
+    top: 160px;
+    z-index: 11;
+  }
+
+  #middle {
+    top: 135px;
+    z-index: 12;
+  }
+
+  #bottom {
+    top: 190px;
+    z-index: 14;
+  }
+
+  #last-intro {
+    width: 90vw;
+    margin-top: 0px;
+  }
+
+  #last-intro > p {
+    max-width: 50%;
+    font-size: 0.8rem;
+    margin: 0 auto;
+  }
+
+  #intro-container button {
+    font-size: 0.8rem;
+    margin-top: 30px;
+    height: 30px;
+    animation: button-growth-mobile 1s ease-in-out forwards;
+  }
+
+  #intro-container button img {
+    width: 70px;
+    height: 30px;
+  }
+
+  #hit-description {
+    font-size: 0.7rem;
+  }
+}
+
+/* Nest Hub */
+
+@media screen and (max-height: 650px) {
+  #top {
+    top: 20px;
+    z-index: 1;
+  }
+
+  #middle {
+    top: 110px;
+    z-index: 12;
+  }
+
+  #bottom {
+    top: 200px;
+    z-index: 33333;
+  }
+
+  #last-intro {
+    position: relative;
+    margin-top: -10px;
+  }
+
+  #last-intro > p {
+    font-size: 0.9rem;
+    margin: 0px auto 40px auto;
+  }
+
+  #intro-container button {
+    z-index: 99999999;
+  }
+
+  footer {
+    height: 40px;
+  }
+}

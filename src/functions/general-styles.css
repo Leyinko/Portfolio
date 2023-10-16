@@ -1,0 +1,360 @@
+/* Adding classes elements */
+
+.title-appear {
+  animation: falling-letters 1.5s ease-in-out forwards;
+  animation-delay: 2s;
+}
+
+/* Animations */
+
+@keyframes disappear-bottom-to-top {
+  1% {
+    transform: translate(0px, -200px) rotate(0px);
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0px, -100px) rotate(3deg);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-bottom-big-sections {
+  0% {
+    transform: translate(0px, 200px) rotate(50deg);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-bottom-big {
+  0% {
+    transform: translate(0px, 400px) rotate(16deg);
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-bottom-big-cards {
+  0% {
+    transform: translate(0px, 400px) skewY(1.25rem);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-bottom-small {
+  0% {
+    transform: translate(0px, 40px) rotate(4deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-top-big {
+  0% {
+    transform: translate(0px, -370px);
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-top-small {
+  0% {
+    transform: translate(0px, -70px) rotate(4deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-right-big {
+  0% {
+    transform: translateX(600px);
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX();
+    opacity: 1;
+  }
+}
+
+@keyframes appear-left-big {
+  0% {
+    transform: translateX(-600px);
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX();
+    opacity: 1;
+  }
+}
+
+@keyframes appear-left-small {
+  0% {
+    transform: translateX(0rem);
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(225px);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-left-small-mobile {
+  0% {
+    transform: translateX(0rem);
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(75px);
+    opacity: 1;
+  }
+}
+
+@keyframes falling-letters {
+  0% {
+    transform: translate(0px, -300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes button-growth {
+  0% {
+    width: 0px;
+    opacity: 0;
+  }
+  100% {
+    width: 255px;
+    opacity: 1;
+  }
+}
+
+@keyframes button-growth-mobile {
+  0% {
+    width: 0px;
+    opacity: 0;
+  }
+  100% {
+    width: 210px;
+    opacity: 1;
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes cross {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotateY(-5deg);
+  }
+  45% {
+    transform: rotateY(35deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes wink-animation {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.8);
+  }
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100%) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes cross-x {
+  0% {
+    transform: scale(12) rotate(60deg) translate(-40%, 30%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8) rotate(-35deg) translate(-20%, -10%) perspective(1000px);
+    opacity: 1;
+  }
+}
+
+@keyframes shake-yes {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(8px);
+  }
+}
+
+/*  */
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes open-split-to-top {
+  0% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes open-split-to-bot {
+  0% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes arrow-up-to-sky {
+  0% {
+    transform: translateY(0rem);
+  }
+  100% {
+    transform: translateY(-600px);
+  }
+}
+
+@keyframes suspense-letters {
+  0% {
+    opacity: 1;
+    border-right: 2px solid black;
+  }
+  100% {
+    /* transform: translateX(0px); */
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes arrow-contact {
+  0% {
+    transform: translateX(-75px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+@keyframes shake-no-chat {
+  0% {
+    transform: rotate(6deg);
+  }
+  10% {
+    transform: rotate(-6deg);
+  }
+  20% {
+    transform: rotate(6deg);
+  }
+  50% {
+    transform: rotate(-6deg);
+  }
+  90% {
+    transform: rotate(6deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
+
+@keyframes pop-the-message {
+  10% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    /* transform: scale(0.1); */
+    opacity: 1;
+    /* background-color: black;s */
+  }
+}

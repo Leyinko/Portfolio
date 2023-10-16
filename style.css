@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'PP Neue Montreal Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Book'), url('src/assets/fonts/PP NEUE MONTREAL/ppneuemontreal-book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Tusker Grotesk';
+  src: url('src/assets/fonts/TuskerGrotesk-3500Medium.ttf') format('truetype');
+}
+
+:root {
+  --scroll: 0;
+  --background-cyclo: #faf9f6;
+}
+
+* {
+  user-select: none;
+  cursor: crosshair;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'PP Neue Montreal Book';
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  transition: background-color 0.4s ease-in;
+  z-index: 9999;
+  background-color: #faf9f6;
+}
+
+#app {
+  filter: blur(0.125rem);
+  position: fixed;
+  top: 0;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  gap: 260px;
+  align-items: center;
+  transition: filter 0.3s linear, background-color 2s ease-in;
+}

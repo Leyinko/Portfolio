@@ -1,0 +1,31 @@
+:root {
+  --scroll: 0;
+}
+
+.progress-container {
+  height: 10px;
+  width: var(--scroll);
+  background-color: #000000;
+  position: sticky;
+  top: var(--bottomViewport);
+  transition: width 0.5s ease-out;
+}
+
+.scroll-to-discover {
+  position: fixed;
+  bottom: 0;
+  left: var(--bottom-discover);
+  margin-left: 25px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-bottom: 15px;
+  animation: appear-bottom-small 1s ease-in-out 7s backwards;
+  transition: transform 0.4s ease-in-out;
+  z-index: 99999;
+}
+
+@media screen and (max-width: 650px) {
+  .scroll-to-discover {
+    font-size: 0.6rem;
+  }
+}

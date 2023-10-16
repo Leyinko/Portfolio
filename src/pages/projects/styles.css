@@ -1,0 +1,377 @@
+#projects-container {
+  width: 70vw;
+  height: 80%;
+  position: relative;
+  background-color: #faf9f6;
+}
+
+.title-projects {
+  font-size: 1.6rem;
+  text-align: left;
+  z-index: -1;
+  opacity: 0;
+}
+
+.art-retorico {
+  width: fit-content;
+  margin-top: 20px;
+  padding-right: 20px;
+  position: relative;
+  font-size: 3.4rem;
+  letter-spacing: -2px;
+  background-color: #faf9f6;
+  z-index: 3;
+  animation: appear-top-small 2s ease-in-out 0.5s forwards;
+  opacity: 0;
+}
+
+.art-retorico-two {
+  padding-right: 20px;
+  width: fit-content;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  font-size: 3.4rem;
+  letter-spacing: -2px;
+  background-color: #faf9f6;
+  opacity: 0;
+  z-index: -1;
+  animation: appear-left-small 0.6s ease-in-out 3s forwards;
+}
+
+#projects-container > p {
+  display: block;
+  padding-right: 20px;
+  margin-top: 17px;
+  font-size: 0.8rem;
+  letter-spacing: 0.02rem;
+  transition: display 1s ease-in-out;
+  animation: appear 1s ease-in-out 4s forwards;
+  opacity: 0;
+}
+
+/* > WAIT TEXT */
+
+.final-span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 5px;
+  font-size: 11rem;
+}
+
+.button-suspense span {
+  position: absolute;
+  animation: suspense-letters 0.1s linear 2s forwards;
+  display: inline-block;
+  opacity: 0;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+/* > PROJECT CONTAINER */
+
+#slider-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.75rem;
+  margin-top: 60px;
+  padding: 0px 15px;
+  width: 100%;
+  height: 30%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.item {
+  min-width: 100px;
+  min-height: 100px;
+  width: 180px;
+  height: 180px;
+  opacity: 0;
+}
+
+.img {
+  height: 90%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+  filter: invert(0.85);
+  transform: scale(0.9);
+  border-radius: 5px;
+}
+
+.img:hover {
+  transform: scale(1);
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-selected {
+  border: 1px solid black;
+  border-radius: 20%;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+  animation: shake-yes 0.4s infinite linear alternate;
+}
+
+/* > BUTTONS */
+
+#projects-container button {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  display: none;
+}
+
+#button-slider-next {
+  position: absolute;
+  right: -90px;
+  bottom: 350px;
+  z-index: 888888;
+  animation: appear-left-big 1s ease-out 1s forwards;
+  opacity: 0;
+}
+
+#button-slider-previous {
+  position: absolute;
+  left: -90px;
+  bottom: 350px;
+  animation: appear-right-big 1s ease-out forwards;
+}
+
+/* ! DESCRIPTION ! */
+
+.description-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  transition: all 2s ease-in-out;
+  opacity: 0;
+}
+
+.container-selected {
+  opacity: 1;
+  transform: none;
+  transition: all 1s ease-in-out;
+  z-index: 1;
+  animation: appear-bottom-big-cards 3s ease-in-out forwards;
+}
+
+.description-container.hider {
+  height: 30vh;
+  bottom: 0px;
+  right: -20px;
+  opacity: 1;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  z-index: 3;
+  background-color: #faf9f6;
+  box-shadow: none;
+  display: none;
+}
+
+.description-container h2 {
+  order: 2;
+  position: relative;
+  font-size: 1.3rem;
+  letter-spacing: -1px;
+}
+
+.description-container p {
+  display: block;
+  text-align: center;
+  width: 40%;
+  font-size: 0.75rem;
+  letter-spacing: 0.02rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  animation: appear 1s ease-in-out 1s forwards;
+  opacity: 0;
+  color: rgba(0, 0, 0, 0.384);
+}
+
+#project-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+#project-link-container a {
+  order: 1;
+  width: 35px;
+  height: 35px;
+  background-image: url('src/assets/icons/click-cursor.svg');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.description-container ul {
+  padding: 5px 25px 0px 40px;
+}
+
+.description-container li {
+  float: right;
+  margin-right: 10px;
+}
+
+/* TECH ICONS */
+
+.tech-icons {
+  border-radius: 30%;
+  width: 30px;
+  height: 30px;
+}
+
+/*  */
+
+@media screen and (max-width: 1280px) {
+  .art-retorico-two {
+    display: none;
+  }
+
+  #slider-inner {
+    width: 100%;
+    gap: 1.75rem;
+  }
+
+  .item {
+    min-width: 100px;
+    min-height: 100px;
+    width: 130px;
+    height: 130px;
+    opacity: 0;
+  }
+
+  .description-container {
+    margin-top: 0px;
+  }
+
+  .description-container p {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .title-projects {
+    top: -30px;
+    width: 90%;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .art-retorico,
+  .art-retorico-two {
+    font-size: 1.8rem;
+  }
+
+  .art-retorico-two {
+    display: none;
+  }
+
+  #projects-container > p {
+    font-size: 0.6rem;
+  }
+
+  .final-span {
+    font-size: 5rem;
+  }
+
+  #slider-inner {
+    display: block;
+    margin-top: 60px;
+    width: max-content;
+    height: 10%;
+    flex-wrap: wrap;
+    padding: 0px;
+    overflow: visible;
+  }
+
+  .item {
+    display: inline-block;
+    min-width: 50px;
+    min-height: 50px;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+  }
+
+  .description-container {
+    margin-top: 0px;
+  }
+
+  #project-link-container a {
+    width: 25px;
+    height: 25px;
+  }
+
+  .description-container h2 {
+    font-size: 1rem;
+  }
+
+  .description-container p {
+    width: 90%;
+    font-size: 0.6rem;
+  }
+
+  .tech-icons {
+    border-radius: 30%;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* ! NEST HUB ! */
+
+@media screen and (max-height: 650px) {
+  #projects-container {
+    height: 70%;
+  }
+
+  .title-projects {
+    top: -30px;
+    width: 90%;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .art-retorico,
+  .art-retorico-two {
+    font-size: 1.8rem;
+  }
+
+  #projects-container > p {
+    font-size: 0.6rem;
+  }
+
+  #project-link-container a {
+    width: 25px;
+    height: 25px;
+  }
+
+  .description-container h2 {
+    font-size: 1rem;
+  }
+
+  .description-container p {
+    width: 90%;
+    font-size: 0.6rem;
+  }
+}
