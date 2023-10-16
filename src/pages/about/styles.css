@@ -79,6 +79,11 @@
   z-index: 100;
 }
 
+#logo:hover {
+  /* transform: scale(1.1); */
+  animation: shake-no-chat 2s infinite ease-in-out;
+}
+
 .pop-up-container {
   width: 10%;
   height: 400px;
