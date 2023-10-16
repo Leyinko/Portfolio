@@ -2,12 +2,7 @@
   font-family: 'PP Neue Montreal Book';
   font-style: normal;
   font-weight: normal;
-  src: local('PP Neue Montreal Book'), url('src/assets/fonts/PP NEUE MONTREAL/ppneuemontreal-book.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Tusker Grotesk';
-  src: url('src/assets/fonts/TuskerGrotesk-3500Medium.ttf') format('truetype');
+  src: local('PP Neue Montreal Book'), url('/assets/fonts/PP NEUE MONTREAL/ppneuemontreal-book.woff') format('woff');
 }
 
 :root {
