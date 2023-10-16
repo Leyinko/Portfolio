@@ -8,22 +8,22 @@
 
 ## Features :
 
-- ##### Daily Music Track :
+- #### Daily Music Track :
 
   A fresh music track every day, with a surprise reward after three consecutive listens.
 
-- ##### LocalStorage Integration :
+- #### LocalStorage Integration :
 
   The Spotify feature, welcome message, and the reward tracking are seamlessly integrated using the LocalStorage API.
 
-- ##### Intersection Observer API :
+- #### Intersection Observer API :
 
   - Dynamic Router : Changes as you scroll.
   - Single Page Application : Anchors apparition when you reach a new section.
   - DOM Elements injections and apparition.
   - Element Visibility and Timing.
 
-- ##### Responsive Design.
+- #### Responsive Design.
 <br>
 
 ### Discover the Secret Path
