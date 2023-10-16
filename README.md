@@ -4,7 +4,7 @@
 
 <img style="display:block; margin: 0 auto;" width="800" src="https://res.cloudinary.com/drft9abh4/image/upload/v1697467392/Proyecto%203%20-%20Portfolio/Intro_yzcdtj.png">
 <br>
-<a href="https://portfolio-luca-giro.netlify.app">Netlify link ➡</a>
+<a target='_blank' href="https://portfolio-luca-giro.netlify.app">Netlify link ➡</a>
 <br>
 
 ## Features :
