@@ -139,6 +139,8 @@
   }
 
   .insider-text {
+    min-width: 200px;
+
     font-size: 0.6rem;
   }
 

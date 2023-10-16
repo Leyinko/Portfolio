@@ -71,6 +71,7 @@
   height: 75px;
   background-color: #faf9f6;
   z-index: 22;
+  /* border: 1px solid red; */
 }
 
 .no-need-container > img:first-of-type {
@@ -276,7 +277,7 @@
   }
 
   .no-need-container {
-    justify-content: end;
+    justify-content: space-between;
     text-wrap: nowrap;
   }
 
@@ -298,7 +299,7 @@
   }
 
   #hiding-arrow {
-    left: -130px;
+    /* left: -130px; */
   }
 
   #shy-div {
@@ -327,15 +328,28 @@
   }
 
   #form-container {
+    margin: 0;
     margin-top: 10px;
     height: 80%;
-    width: 580px;
+    width: 70%;
     font-size: 0.8rem;
     line-height: 10px;
   }
 
+  #form-container input {
+    width: 90%;
+  }
+
+  #form-container select {
+    width: 90%;
+  }
+
   #form-container h3 {
     font-size: 0.7rem;
+  }
+
+  #form-container > div {
+    width: 90%;
   }
 
   #form-container button {
