@@ -10,7 +10,7 @@
 
 - #### Daily Music Track :
 
-  A fresh music track every day, with a surprise reward after three consecutive listens.
+  A fresh music track every day, with a surprise reward after three consecutive hits.
 
 - #### LocalStorage Integration :
 
@@ -31,7 +31,7 @@
 <img width='200px' src="https://res.cloudinary.com/drft9abh4/image/upload/v1697471056/Proyecto%203%20-%20Portfolio/Secret_Mode_Hint_ffdfmh.png">
 <br>
 
-###### Uncover the website's secret path hidden somewhere, and find my secret picture.
+###### Uncover the website's secret path hidden somewhere, and find the secret picture.
 
 #### As a last word, I will have to let you in.
 

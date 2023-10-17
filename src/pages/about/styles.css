@@ -76,11 +76,15 @@
   object-fit: cover;
   cursor: pointer;
   transition: all 0.1s ease-in-out;
+  filter: drop-shadow(2px 2px 3px #000000);
+
   z-index: 100;
 }
 
 #logo:hover {
-  transform: scale(1.1);
+  filter: drop-shadow(5px 5px 10px #000000);
+  transform: scale(1.1) rotate(-4deg);
+  transition: all 0.5s;
 }
 
 .pop-up-container {

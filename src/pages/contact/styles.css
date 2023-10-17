@@ -1,11 +1,10 @@
 #contact-container {
-  width: 90vw;
+  width: 70vw;
   height: 80%;
   position: relative;
   display: flex;
   flex-direction: column;
   background-color: #faf9f6;
-
   z-index: 222;
 }
 
