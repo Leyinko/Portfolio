@@ -33,7 +33,7 @@
 
 ###### Uncover the website's secret path hidden somewhere, and find the secret picture.
 
-#### As a last word, I will have to let you in.
+#### As a last word, I will have to let you in...
 
 <br>
 
