@@ -2,7 +2,7 @@ import { routerObserver } from './src/hooks/router/router-observer';
 import { horizontalScroll } from './src/hooks/horizontal-scroll';
 // HUD and ++
 import './src/components/progress-bar/progress-bar.js';
-// import './src/components/loading-welcome/loading.js';
+import './src/components/loading-welcome/loading.js';
 import './src/components/header/header';
 import './src/components/footer/footer';
 import './src/pages/single-page-app-like';
