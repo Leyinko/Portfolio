@@ -16,9 +16,9 @@ import './src/hooks/secret-mode.js';
 
 window.addEventListener('resize', horizontalScroll);
 
-// window.addEventListener('load', () => {
-//   window.scrollTo(0, 0);
-// });
+window.addEventListener('load', () => {
+  window.scrollTo(0, 0);
+});
 
 routerObserver();
 horizontalScroll();
