@@ -28,7 +28,7 @@ function initArtRetorico() {
   artRetoricoTwo.classList.add('art-retorico-two');
   artRetoricoTwo.innerText = 'ARE WE ?';
 
-  let artText = `If you are itching for an <b style='font-size:1..5rem'>engaging awesome conversation</b> about art or any related topic, and cannot wait...</br>`;
+  let artText = `If you are itching for an engaging awesome conversation about art or any related topic, and cannot wait...</br>`;
   contactArtText.innerHTML = artText;
 
   artRetorico.addEventListener('animationend', () => {

@@ -44,7 +44,7 @@
 .insider-text {
   display: block;
   min-width: 300px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   letter-spacing: 0.02rem;
   margin-bottom: 20px;
   animation: appear 2s ease-in-out 1s forwards;
@@ -69,28 +69,28 @@
 #logo {
   position: absolute;
   left: 80%;
-  top: 13%;
-  height: 270px;
-  max-width: 270px;
-  min-width: 270px;
+  top: 16%;
+  height: 200px;
+  max-width: 200px;
+  min-width: 200px;
   object-fit: cover;
   cursor: pointer;
   transition: all 0.1s ease-in-out;
   filter: drop-shadow(2px 2px 3px #000000);
-
   z-index: 100;
+  /* transform: rotate(-30deg); */
 }
 
 #logo:hover {
-  filter: drop-shadow(5px 5px 10px #000000);
-  transform: scale(1.1) rotate(-4deg);
+  filter: drop-shadow(3px 3px 6px #000000);
+  /* transform: scale(1.05) rotate(-2deg); */
   transition: all 0.5s;
 }
 
 .pop-up-container {
   width: 10%;
   height: 400px;
-  animation: falling-letters 0.4s ease-out forwards;
+  animation: falling-letters 0.9s ease-out forwards;
   z-index: -4;
   outline: 1px solid black;
   border-top: 1px solid black;
@@ -109,7 +109,7 @@
   border: none;
   top: 0px;
   right: 0;
-  animation: cross-x 0.4s forwards ease-in;
+  /* animation: cross-x 0.6s forwards ease-in; */
   z-index: 1000;
 }
 

@@ -3,6 +3,7 @@
   height: 60%;
   position: relative;
   text-align: center;
+  /* border: 1px solid red; */
 }
 
 #title-intro {
@@ -61,10 +62,6 @@
 
 /* TEXT CONTAINER */
 
-#intro-container {
-  margin: 20px;
-}
-
 #intro-container h2 {
   line-height: 80px;
 }
@@ -117,7 +114,7 @@
   min-width: 70%;
   margin: 0px auto 50px auto;
   text-align: center;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
   opacity: 0;
   animation: appear-bottom-small 1s ease-in-out forwards;
   animation-delay: 4s;
@@ -155,7 +152,7 @@
 
 #hit-description {
   color: rgba(0, 0, 0, 0.189);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
   margin-top: 15px;
   opacity: 0;

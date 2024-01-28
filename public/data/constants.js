@@ -49,39 +49,40 @@ export const techIcons = {
 export const projectsInfo = [
   {
     image: '/assets/img/projects-images/Interactive-Web-Responsive.png',
-    project_title: 'WEB RESPONSIVE DESIGN',
+    project_title: 'RESPONSIVE DESIGN',
     project_description: `This project involves redesigning the homepage of a Figma account. The goal was to re-create a modern, visually engaging layout that seamlessly adapts to different devices and screen sizes.`,
     project_link: 'https://github.com/Leyinko/Figma-Homepage-Responsive',
     technologies_used: [techIcons.HTML, techIcons.CSS],
   },
   {
     image: '/assets/img/projects-images/Your-Local-Local-Storage.png',
-    project_title: 'LOCAL STORAGE API',
+    project_title: 'LOCAL STORAGE',
     project_description: `Originally made as a Local Storage API test, this project allows you to access and control your own Local Storage, recognizing three data type and organizing data into variables, arrays, or objects.`,
     project_link: 'https://github.com/Leyinko/Your-local-localStorage',
     technologies_used: [techIcons.HTML, techIcons.CSS, techIcons.JS],
   },
+  // {
+  //   image: '/assets/img/projects-images/Full-Notion-Template.png',
+  //   project_title: 'NOTION TEMPLATE',
+  //   project_description:
+  //     'A personal organization template for effective task management, note-taking, and knowledge storage.',
+  //   project_link: 'https://collection.cloudinary.com/drft9abh4/c04f8da414ce68ad45a91bb3e34d6fc7',
+  //   technologies_used: [techIcons.NOTION],
+  // },
+  // {
+  //   image: '/assets/img/projects-images/AABS.png',
+  //   project_title: 'ALL ABOUT',
+  //   project_description: `Little project designed to provide an interactive and user-friendly way to explore and test various JavaScript methods across different data types.`,
+  //   project_link: 'https://github.com/Leyinko/AAB',
+  //   technologies_used: [techIcons.VSC, techIcons.JS],
+  // },
   {
-    image: '/assets/img/projects-images/Full-Notion-Template.png',
-    project_title: 'NOTION TEMPLATE',
-    project_description:
-      'A personal organization template for effective task management, note-taking, and knowledge storage.',
-    project_link: 'https://collection.cloudinary.com/drft9abh4/c04f8da414ce68ad45a91bb3e34d6fc7',
-    technologies_used: [techIcons.NOTION],
-  },
-  {
-    image: '/assets/img/projects-images/AABS.png',
-    project_title: 'ALL ABOUT',
-    project_description: `Little project designed to provide an interactive and user-friendly way to explore and test various JavaScript methods across different data types.`,
-    project_link: 'https://github.com/Leyinko/AAB',
-    technologies_used: [techIcons.VSC, techIcons.JS],
-  },
-  {
-    image: '/assets/img/projects-images/Soon.png',
-    project_title: 'SOON',
-    project_description: '',
-    project_link: 'https://media.tenor.com/JWtzBZzGDtEAAAAC/not-yet-you-wait.gif',
-    technologies_used: [],
+    image: '/assets/img/projects-images/Atomify.png',
+    project_title: 'ATOMIFY',
+    project_description: `
+    A complete music platform featuring 100 carefully curated tracks, equipped with a player and seamless user account integration. Discover, appreciate, and rate music that resonates with your taste!`,
+    project_link: 'https://atomify.netlify.app/login',
+    technologies_used: [techIcons.HTML, techIcons.CSS, techIcons.JS],
   },
 ];
 

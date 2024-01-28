@@ -31,13 +31,14 @@ body {
 }
 
 #app {
-  filter: blur(0.125rem);
+  /* filter: blur(0.125rem); */
   position: fixed;
   top: 0;
   width: fit-content;
   height: 100%;
   display: flex;
-  gap: 260px;
+  gap: 160px;
   align-items: center;
   transition: filter 0.3s linear, background-color 2s ease-in;
+  margin-right: 40px;
 }

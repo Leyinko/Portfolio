@@ -238,14 +238,14 @@
 
 @keyframes cross-x {
   0% {
-    transform: scale(12) rotate(60deg) translate(-40%, 30%);
+    transform: scale(14) rotate(60deg) translate(-40%, 30%);
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   100% {
-    transform: scale(0.8) rotate(-35deg) translate(-20%, -10%) perspective(1000px);
+    transform: scale(0.8) rotate(-35deg) translate(-20%, -50%) perspective(1000px);
     opacity: 1;
   }
 }

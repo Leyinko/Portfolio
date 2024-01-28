@@ -14,10 +14,11 @@ header {
 }
 
 #theme-container {
-  margin: 0px 0px 22px 45px;
+  /* margin: 0px 0px 22px 45px; */
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 2rem;
   height: 1.05rem;
   border: 1px solid black;
