@@ -10,7 +10,7 @@
   position: absolute;
   top: -30px;
   left: 25%;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .falling-animation span {
@@ -28,6 +28,7 @@
   overflow: hidden;
   opacity: 0;
   white-space: pre;
+  letter-spacing: -1px;
 }
 
 /* DIV HIDERS */

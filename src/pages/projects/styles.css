@@ -19,7 +19,8 @@
   padding-right: 20px;
   position: relative;
   font-size: 3.4rem;
-  letter-spacing: -2px;
+  /* letter-spacing: -2px; */
+  letter-spacing: -1px;
   background-color: #faf9f6;
   z-index: 3;
   animation: appear-top-small 2s ease-in-out 0.5s forwards;
