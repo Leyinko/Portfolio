@@ -53,13 +53,14 @@
 
 .photographs-container {
   position: relative;
-  margin: 0 auto;
+  margin: 0 20px;
   width: 90%;
   height: 50%;
   animation: appear 0.2s linear 2s forwards;
   opacity: 0;
   overflow: hidden;
   z-index: 1;
+  /* border: 1px solid red; */
 }
 
 #logo-block {
@@ -90,7 +91,7 @@
 .pop-up-container {
   width: 10%;
   height: 400px;
-  animation: falling-letters 0.9s ease-out forwards;
+  /* animation: falling-letters 0.9s ease-out forwards; */
   z-index: -4;
   outline: 1px solid black;
   border-top: 1px solid black;

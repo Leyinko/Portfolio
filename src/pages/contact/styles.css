@@ -147,7 +147,7 @@
 #form-container input {
   position: relative;
   font-size: 0.9rem;
-  width: 650px;
+  width: 450px;
   line-height: 20px;
   border: none;
   border-bottom: 1px solid black;
@@ -157,7 +157,7 @@
 }
 
 #form-container select {
-  width: 650px;
+  width: 450px;
   padding-top: 10px;
   border: none;
   outline: none;

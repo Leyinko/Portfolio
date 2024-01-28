@@ -82,7 +82,7 @@ function initAboutImagesXLogo() {
 
 let numberIndex = 10;
 
-function randomPhotographsOnClick() {
+async function randomPhotographsOnClick() {
   //
   const imageBlock = document.querySelector('#logo-block');
   let image = document.querySelector('#logo');
