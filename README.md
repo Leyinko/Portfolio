@@ -37,7 +37,7 @@
 
 <br>
 
-[https://portfolio-luca-giro.netlify.app/Home](https://leyinko.netlify.app/Home)
+[https://leyinko.netlify.app/Home](https://leyinko.netlify.app/Home)
 <br>
 <br>
 
