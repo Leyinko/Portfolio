@@ -1,6 +1,8 @@
 import { formAutoFill } from '../../../public/data/constants';
 import './styles.css';
 
+let anchors = document.querySelectorAll('footer div a');
+
 let contactSection = document.createElement('section');
 contactSection.id = 'contact-container';
 contactSection.setAttribute('href', '/Contact');
@@ -35,6 +37,8 @@ function initNoNeedPhrase() {
   const toBeShy = document.createElement('div');
   toBeShy.id = 'shy-div';
   toBeShy.innerHTML = `<h1>TO BE</h1><img src='${shyGif}'><h1>SHY.</h1>`;
+
+  toBeShy.addEventListener('animationend', () => anchors[2].click());
 
   catchContainer.append(sayHi, noNeed, toBeShy);
   contactSection.appendChild(catchContainer);
@@ -199,7 +203,7 @@ const contactAnchor = document.querySelector('#contact');
 const sectionsOptions = {
   root: null,
   threshold: 0.3,
-  rootMargin: '0px',
+  rootMargin: '-300px',
 };
 
 const contactObserver = new IntersectionObserver(function (entries) {

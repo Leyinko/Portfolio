@@ -14,7 +14,7 @@ export function routerObserver() {
         return;
       }
       history.replaceState('', '', entry.target.getAttribute('href'));
-      document.title = `Portfolio | ` + location.pathname.slice(1);
+      document.title = `Luca Giro's Portfolio | ` + location.pathname.slice(1);
     });
   }, routerObserverOptions);
 
