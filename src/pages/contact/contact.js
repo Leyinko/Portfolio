@@ -142,9 +142,9 @@ function initFakeFormFill() {
     //
     let inputs = document.querySelectorAll('input');
     // Secret Access
-    if (inputs[3].value === 'let me in' || inputs[3].value === 'Let me in') {
+    if (inputs[3].value === 'letmein' || inputs[3].value === 'LETMEIN') {
       e.preventDefault();
-      messagePop.innerText = `Congratulations, secret access button unlocked.`;
+      messagePop.innerText = `Secret access button unlocked.`;
       messagePop.appendChild(clipPath);
       //
       document.body.style.transition = 'all 3s ease-in-out';

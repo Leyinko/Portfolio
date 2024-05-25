@@ -44,45 +44,40 @@ export const techIcons = {
   JS: '/assets/icons/tech-icons/js.svg',
   VSC: '/assets/icons/tech-icons/vs.svg',
   NOTION: '/assets/icons/tech-icons/notion.svg',
+  MONGO: '/assets/icons/tech-icons/mongo.svg',
 };
 
 export const projectsInfo = [
   {
     image: '/assets/img/projects-images/Interactive-Web-Responsive.png',
     project_title: 'RESPONSIVE DESIGN',
-    project_description: `This project involves redesigning the homepage of a Figma account. The goal was to re-create a modern, visually engaging layout that seamlessly adapts to different devices and screen sizes.`,
-    project_link: 'https://github.com/Leyinko/Figma-Homepage-Responsive',
+    project_description: `This project involves redesigning the homepage of a Figma account.
+    The goal was to re-create a modern, visually engaging layout that seamlessly adapts to different devices and screen sizes.`,
+    project_link: 'https://figma-recently-viewed-copy-x.netlify.app/',
     technologies_used: [techIcons.HTML, techIcons.CSS],
   },
   {
     image: '/assets/img/projects-images/Your-Local-Local-Storage.png',
     project_title: 'LOCAL STORAGE',
     project_description: `Originally made as a Local Storage API test, this project allows you to access and control your own Local Storage, recognizing three data type and organizing data into variables, arrays, or objects.`,
-    project_link: 'https://github.com/Leyinko/Your-local-localStorage',
+    project_link: 'https://your-local-localstorage.netlify.app/',
     technologies_used: [techIcons.HTML, techIcons.CSS, techIcons.JS],
   },
-  // {
-  //   image: '/assets/img/projects-images/Full-Notion-Template.png',
-  //   project_title: 'NOTION TEMPLATE',
-  //   project_description:
-  //     'A personal organization template for effective task management, note-taking, and knowledge storage.',
-  //   project_link: 'https://collection.cloudinary.com/drft9abh4/c04f8da414ce68ad45a91bb3e34d6fc7',
-  //   technologies_used: [techIcons.NOTION],
-  // },
-  // {
-  //   image: '/assets/img/projects-images/AABS.png',
-  //   project_title: 'ALL ABOUT',
-  //   project_description: `Little project designed to provide an interactive and user-friendly way to explore and test various JavaScript methods across different data types.`,
-  //   project_link: 'https://github.com/Leyinko/AAB',
-  //   technologies_used: [techIcons.VSC, techIcons.JS],
-  // },
   {
     image: '/assets/img/projects-images/Atomify.png',
     project_title: 'ATOMIFY',
-    project_description: `
-    A complete music platform featuring 100 carefully curated tracks, equipped with a player and seamless user account integration. Discover, appreciate, and rate music that resonates with your taste!`,
+    project_description: `A complete music platform featuring 100 carefully curated tracks, equipped with a player and seamless user account integration.
+    Discover, appreciate, and rate music that resonates with your taste!`,
     project_link: 'https://atomify.netlify.app/login',
     technologies_used: [techIcons.HTML, techIcons.CSS, techIcons.JS],
+  },
+  {
+    image: '/assets/img/projects-images/LMO.png',
+    project_title: 'LET ME OUT',
+    project_description: `Let Me Out is a multiplayer online escape room experience filled with exploration, puzzles, and mini-games.
+    Effective communication and teamwork are crucial for success as players race against the clock to get out!`,
+    project_link: 'http://5.250.185.179:3002/',
+    technologies_used: [techIcons.HTML, techIcons.CSS, techIcons.MONGO, techIcons.JS],
   },
 ];
 

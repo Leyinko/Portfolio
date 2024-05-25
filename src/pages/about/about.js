@@ -23,7 +23,7 @@ export function initAboutText() {
   completeTextContainer.className = 'complete-text';
 
   const topCap = document.createElement('h2');
-  topCap.textContent = `I AM A FULLSTACK DEVELOPMENT STUDENT.`;
+  topCap.textContent = `I AM A FULLSTACK WEB DEVELOPER.`;
   const botCap = document.createElement('h2');
   botCap.innerHTML = `I LOVE MINIMAL AND BRUTALIST DESIGN.</br>
   I LOVE NATURE, PASTA AND ART.`;
@@ -31,10 +31,9 @@ export function initAboutText() {
   const insiderText = document.createElement('span');
   insiderText.className = 'insider-text';
 
-  insiderText.innerText = `
-  I was born in France with a mix of Italian and Spanish culture.
-  After completing my primary college course in marketing, I delved into Photography by pursuing a master's degree in the field  in both France and Spain.
-  Over the years,  I've had the opportunity to call various countries home, including Scotland and Holland, before finally returning to Spain.
+  insiderText.textContent = `I was born in France with a mix of Italian and Spanish culture.
+  After completing my primary college course in Marketing, I went to Art School and pursued a master's degree in Photography in both France and Spain.
+  Over the years, I've had the opportunity to call various countries home, including Scotland and Holland, before returning to Spain.
   `;
 
   topCap.addEventListener('animationend', () => {
@@ -44,6 +43,18 @@ export function initAboutText() {
   completeTextContainer.append(topCap, insiderText, botCap);
 
   aboutSection.appendChild(completeTextContainer);
+}
+
+// > Preload Pictures >
+
+function preloadedPictures() {
+  return picturesClicking
+    .map((picture) => {
+      let img = new Image();
+      img.src = Object.values(picture)[0];
+      return img;
+    })
+    .flat();
 }
 
 // > Inside Container >
@@ -72,7 +83,7 @@ function initAboutImagesXLogo() {
     logoXClickImage.style.animation = 'cross-x 0.5s forwards ease-in;';
   });
   //
-  aboutSection.appendChild(logoXClickImage);
+  document.querySelector('.complete-text').appendChild(logoXClickImage);
 
   let image = document.querySelector('#logo');
   image.addEventListener('click', randomPhotographsOnClick);
@@ -81,6 +92,7 @@ function initAboutImagesXLogo() {
 // > Images Block >
 
 let numberIndex = 10;
+let preloaded = preloadedPictures();
 
 async function randomPhotographsOnClick() {
   //
@@ -88,27 +100,24 @@ async function randomPhotographsOnClick() {
   let image = document.querySelector('#logo');
   //
   if (numberIndex === 0) {
-    aboutSection.appendChild(image);
     image.classList.add('end-pictures-effect');
     imageBlock.style.animation = 'disappear-bottom-to-top 0.3s ease-out forwards';
     image.style.pointerEvents = 'none';
-    document.querySelector('.complete-text').style.borderBottom = '1px solid black';
+    image.style.opacity = '1';
     return;
   }
-  //
+  // > 2.0
   let containerPopUp = document.createElement('div');
   containerPopUp.className = 'pop-up-container';
-  let imagePopUp = document.createElement('img');
+  let imagePopUp = preloaded[Math.floor(Math.random() * `${numberIndex}`)];
   imagePopUp.className = 'pop-up-image';
   containerPopUp.appendChild(imagePopUp);
   imageBlock.appendChild(containerPopUp);
-  //
-  let imageRandom = picturesClicking[Math.floor(Math.random() * `${numberIndex}`)];
-  imagePopUp.src = Object.values(imageRandom);
-  let indexToDelete = picturesClicking.indexOf(imageRandom);
-  picturesClicking.splice(indexToDelete, 1);
+  // > Delete
+  let indexToDelete = preloaded.indexOf(imagePopUp);
+  preloaded.splice(indexToDelete, 1);
   numberIndex--;
-  // Center on section view >
+  // >  Center on section view >
   anchors[0].click();
 }
 

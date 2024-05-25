@@ -81,6 +81,7 @@ header > div:first-of-type {
   transition: all 1s ease-in-out;
   opacity: 0;
   visibility: hidden;
+  /* filter: invert(1); */
 }
 
 @media screen and (max-width: 650px) {

@@ -1,9 +1,8 @@
 #intro-container {
   width: 100vw;
-  height: 60%;
+  height: 55%;
   position: relative;
   text-align: center;
-  /* border: 1px solid red; */
 }
 
 #title-intro {
@@ -11,6 +10,8 @@
   top: -30px;
   left: 25%;
   letter-spacing: 1px;
+  font-size: 17px;
+  /* border: 1px solid red; */
 }
 
 .falling-animation span {
@@ -23,7 +24,7 @@
 #intro-container div h2 {
   position: absolute;
   width: 100%;
-  font-size: 6rem;
+  font-size: 5rem;
   animation: appear-bottom-big 2s ease-in-out 2s forwards;
   overflow: hidden;
   opacity: 0;
@@ -46,76 +47,67 @@
 }
 
 .one {
-  top: 120px;
+  top: 100px;
   z-index: 11;
 }
 
 .two {
-  top: 210px;
+  top: 190px;
   z-index: 13;
 }
 
 .three {
   height: 100%;
-  top: 295px;
+  top: 265px;
   z-index: 15;
 }
 
 /* TEXT CONTAINER */
 
 #intro-container h2 {
-  line-height: 80px;
+  line-height: 60px;
+  /* border: 1px solid red; */
 }
 
 #intro-container div img {
-  height: 70px;
-  width: 70px;
-  margin: 0px 20px;
+  height: 60px;
+  width: 60px;
+  margin: 0px 15px;
 }
 
 #top {
-  top: 30px;
+  top: 20px;
   z-index: 1;
 }
 
-#top img {
-  animation: cross 0.5s both 4s infinite alternate;
-}
-
 #middle {
-  top: 120px;
+  top: 100px;
   z-index: 12;
 }
 
-#middle img {
-  animation: wink-animation 2s 3s infinite alternate-reverse;
-}
-
 #bottom {
-  top: 210px;
+  top: 180px;
   z-index: 14;
-}
-
-#bottom img {
-  animation: heartbeat 0.6s both 3.5s infinite alternate;
 }
 
 /* Bottom Container */
 
 #last-intro {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 20px;
   z-index: 15;
   transition: opacity 0.2s ease-in-out;
   background-color: #faf9f6;
+  /* border: 1px solid red; */
 }
 
 #last-intro > p {
   max-width: 80%;
   min-width: 70%;
-  margin: 0px auto 50px auto;
+  margin: 0px auto 30px auto;
   text-align: center;
-  /* font-size: 0.9rem; */
+  font-size: 0.9rem;
+  color: var(--font);
   opacity: 0;
   animation: appear-bottom-small 1s ease-in-out forwards;
   animation-delay: 4s;
@@ -123,10 +115,10 @@
 
 #intro-container button {
   position: relative;
-  margin-bottom: 50px;
-  padding-right: 19px;
-  height: 40px;
-  font-size: 1rem;
+  /* margin-bottom: 60px; */
+  padding-right: 24px;
+  height: 38px;
+  font-size: 0.9rem;
   font-weight: 600;
   text-align: end;
   text-wrap: nowrap;
@@ -138,13 +130,14 @@
   animation: button-growth 1s ease-in-out forwards;
   animation-delay: 5s;
   opacity: 0;
+  /* border: 1px solid green; */
 }
 
 #intro-container button img {
   position: absolute;
   height: inherit;
   top: 0px;
-  left: -24px;
+  left: -19px;
   background-color: black;
   border-radius: 20px;
   transform: scale(0.8);
@@ -155,10 +148,11 @@
   color: rgba(0, 0, 0, 0.189);
   font-size: 0.9rem;
   font-weight: bold;
-  margin-top: 15px;
+  line-height: 40px;
   opacity: 0;
   animation: falling-letters 1s ease-out 3s forwards;
   transition: all 1s ease-in-out;
+  /* border: 1px solid red; */
 }
 
 /* Media Queries */

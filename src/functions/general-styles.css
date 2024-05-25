@@ -109,7 +109,7 @@
   }
   100% {
     transform: translateX();
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 
@@ -136,7 +136,7 @@
     opacity: 0;
   }
   100% {
-    transform: translateX(225px);
+    transform: translateX(175px);
     opacity: 1;
   }
 }
@@ -172,7 +172,7 @@
     opacity: 0;
   }
   100% {
-    width: 255px;
+    width: 235px;
     opacity: 1;
   }
 }
@@ -242,11 +242,11 @@
     opacity: 0;
   }
   10% {
-    opacity: 1;
+    opacity: 0.5;
   }
   100% {
     transform: scale(0.8) rotate(-35deg) translate(-20%, -50%) perspective(1000px);
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 

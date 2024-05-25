@@ -8,6 +8,8 @@
 :root {
   --scroll: 0;
   --background-cyclo: #faf9f6;
+  --font: #000000d0;
+  --section-title: #00000056;
 }
 
 * {

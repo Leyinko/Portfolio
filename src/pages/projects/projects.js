@@ -143,9 +143,14 @@ function initProjects() {
       techList
     );
     //
-    images[index].addEventListener('click', () => {
+    images[index].addEventListener('click', (e) => {
       descriptionProjectCard();
+      e.detail === 2 && window.open(document.querySelector('.container-selected h2').getAttribute('href'), '_blank');
     });
+    //
+    document
+      .querySelectorAll('#project-link-container h2')
+      .forEach((link) => link.addEventListener('click', (e) => window.open(e.target.getAttribute('href'), '_blank')));
   });
 
   // > Slider buttons >
@@ -185,8 +190,7 @@ function descriptionProjectCard() {
 function projectPaint(title, description, link, technologies) {
   return `
   <div id='project-link-container'>
-    <h2>${title}</h2>
-    <a href='${link}' target='_blank'></a>
+    <h2 href='${link}'>${title}</h2>
   </div>
   <p>${description}</p>
   <ul>${technologies}</ul>

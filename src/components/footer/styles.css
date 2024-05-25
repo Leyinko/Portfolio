@@ -3,9 +3,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 20px;
+  padding: 0px 20px;
   padding-top: 0px;
-  min-height: 60px;
+  min-height: 80px;
   position: fixed;
   bottom: 0;
   background-color: transparent;
@@ -32,6 +32,7 @@ footer a {
   color: black;
   font-weight: 600;
   opacity: 0;
+  /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 650px) {

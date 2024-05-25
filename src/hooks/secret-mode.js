@@ -1,7 +1,8 @@
 export function secretModeOn() {
   //
   const allElements = document.querySelectorAll('*');
-  const allImages = document.querySelectorAll('img');
+  const allImages = document.querySelectorAll('img:not(#portrait)');
+
   //
   allElements.forEach((element) => {
     element.style.backgroundColor = '#00000014';
@@ -9,9 +10,9 @@ export function secretModeOn() {
     element.style.transition = 'none';
   });
   //
-  allImages.forEach((image) => {
-    image.style.filter = 'invert(1)';
-  });
+  // allImages.forEach((image) => {
+  //   image.style.filter = 'invert(1)';
+  // });
 
   // Reach Objective >
   window.addEventListener('scroll', reachThePortrait);
