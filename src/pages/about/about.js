@@ -5,7 +5,8 @@ let aboutSection = document.createElement('section');
 aboutSection.id = 'about-container';
 aboutSection.setAttribute('href', '/About');
 
-document.querySelector('#intro-container').insertAdjacentElement('afterend', aboutSection);
+document.querySelector('#intro-container') &&
+  document.querySelector('#intro-container').insertAdjacentElement('afterend', aboutSection);
 
 const titleAbout = document.createElement('h1');
 titleAbout.innerText = 'ABOUT';
@@ -23,7 +24,7 @@ export function initAboutText() {
   completeTextContainer.className = 'complete-text';
 
   const topCap = document.createElement('h2');
-  topCap.textContent = `I AM A FULLSTACK WEB DEVELOPER.`;
+  topCap.textContent = `I AM A FRONT-END WEB DEVELOPER.`;
   const botCap = document.createElement('h2');
   botCap.innerHTML = `I LOVE MINIMAL AND BRUTALIST DESIGN.</br>
   I LOVE NATURE, PASTA AND ART.`;

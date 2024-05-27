@@ -7,7 +7,8 @@ let contactSection = document.createElement('section');
 contactSection.id = 'contact-container';
 contactSection.setAttribute('href', '/Contact');
 
-document.querySelector('#projects-container').insertAdjacentElement('afterend', contactSection);
+document.querySelector('#projects-container') &&
+  document.querySelector('#projects-container').insertAdjacentElement('afterend', contactSection);
 
 const titleContact = document.createElement('h1');
 titleContact.innerText = 'CONTACT';
@@ -203,7 +204,7 @@ const contactAnchor = document.querySelector('#contact');
 const sectionsOptions = {
   root: null,
   threshold: 0.3,
-  rootMargin: '-300px',
+  rootMargin: '-200px',
 };
 
 const contactObserver = new IntersectionObserver(function (entries) {

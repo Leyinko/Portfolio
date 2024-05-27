@@ -44,3 +44,31 @@ body {
   transition: filter 0.3s linear, background-color 2s ease-in;
   margin-right: 40px;
 }
+
+/* TEST */
+
+div:has([class$='message']) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  /* overflow: visible; */
+  /* position: absolute; */
+  /* right: 0px; */
+  /* border: 1px solid red; */
+}
+
+.black-message {
+  white-space: pre-line;
+
+  /* position: absolute; */
+  color: white;
+  /* font-family: ; */
+  font-size: 5vw;
+}
+
+.white-message {
+  /* overflow: hidden; */
+  color: black;
+  font-size: 4vw;
+}

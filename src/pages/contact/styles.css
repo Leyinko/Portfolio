@@ -1,6 +1,6 @@
 #contact-container {
   width: 50vw;
-  /* height: 73%; */
+  height: 73%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -216,7 +216,7 @@
   background-color: black;
   border: none;
   border-radius: 30px;
-  cursor: grab;
+  cursor: pointer;
   opacity: 0.9;
   margin-top: 15px;
   margin-right: 100px;

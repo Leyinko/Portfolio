@@ -13,6 +13,7 @@ import './src/pages/projects/projects';
 import './src/pages/contact/contact';
 // Secret mode
 import './src/hooks/secret-mode.js';
+import { checkDisplay } from './src/hooks/display-smartphone.js';
 
 window.addEventListener('resize', horizontalScroll);
 
@@ -22,3 +23,6 @@ window.addEventListener('load', () => {
 
 routerObserver();
 horizontalScroll();
+
+// Smartphone Access
+checkDisplay();

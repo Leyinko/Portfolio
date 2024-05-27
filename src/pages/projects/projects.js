@@ -5,7 +5,8 @@ let projectSection = document.createElement('section');
 projectSection.id = 'projects-container';
 projectSection.setAttribute('href', '/Projects');
 
-document.querySelector('#about-container').insertAdjacentElement('afterend', projectSection);
+document.querySelector('#about-container') &&
+  document.querySelector('#about-container').insertAdjacentElement('afterend', projectSection);
 
 const titleProjects = document.createElement('h1');
 titleProjects.innerText = 'PROJECTS';
