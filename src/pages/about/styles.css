@@ -92,8 +92,6 @@
 }
 
 #logo:hover {
-  opacity: 0.1;
-
   transform: rotate(0.3deg);
   transition: all 0.3s;
 }
