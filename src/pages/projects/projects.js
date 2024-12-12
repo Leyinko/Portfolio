@@ -133,15 +133,15 @@ function initProjects() {
     //
     let techList = '';
 
-    element.technologies_used.forEach((item) => {
-      techList += createTechElement(item);
-    });
+    // element.technologies_used.forEach((item) => {
+    //   techList += createTechElement(item);
+    // });
     //
     descriptionContainer.innerHTML += projectPaint(
       element.project_title,
-      element.project_description,
-      element.project_link,
-      techList
+      element.project_description
+      // element.project_link,
+      // techList
     );
     //
     images[index].addEventListener('click', (e) => {

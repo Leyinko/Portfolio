@@ -53,23 +53,20 @@ export const projectsInfo = [
     project_title: 'RESPONSIVE DESIGN',
     project_description: `This project involves redesigning the homepage of a Figma account.
     The goal was to re-create a modern, visually engaging layout that seamlessly adapts to different devices and screen sizes.`,
-    project_link: 'https://figma-recently-viewed-copy-x.netlify.app/',
-    technologies_used: [techIcons.HTML, techIcons.CSS],
+    project_link: 'https://figma-homepage-responsive.vercel.app/',
   },
   {
     image: '/assets/img/projects-images/Your-Local-Local-Storage.png',
-    project_title: 'LOCAL STORAGE',
+    project_title: 'YOUR LOCAL LOCAL STORAGE',
     project_description: `Originally made as a Local Storage API test, this project allows you to access and control your own Local Storage, recognizing three data type and organizing data into variables, arrays, or objects.`,
-    project_link: 'https://your-local-localstorage.netlify.app/',
-    technologies_used: [techIcons.HTML, techIcons.CSS, techIcons.JS],
+    project_link: 'https://your-local-local-storage.vercel.app/',
   },
   {
     image: '/assets/img/projects-images/Atomify.png',
     project_title: 'ATOMIFY',
     project_description: `A complete music platform featuring 100 carefully curated tracks, equipped with a player and seamless user account integration.
     Discover, appreciate, and rate music that resonates with your taste!`,
-    project_link: 'https://atomify.netlify.app/login',
-    technologies_used: [techIcons.HTML, techIcons.CSS, techIcons.JS],
+    project_link: 'https://atomify-explorer.vercel.app/login',
   },
   {
     image: '/assets/img/projects-images/LMO.png',
@@ -77,7 +74,18 @@ export const projectsInfo = [
     project_description: `Let Me Out is a multiplayer online escape room experience filled with exploration, puzzles, and mini-games.
     Effective communication and teamwork are crucial for success as players race against the clock to get out!`,
     project_link: 'http://5.250.185.179:3002/',
-    technologies_used: [techIcons.HTML, techIcons.CSS, techIcons.MONGO, techIcons.JS],
+  },
+  {
+    image: '/assets/img/projects-images/Recoms-API.png',
+    project_title: 'RECOMS-API',
+    project_description: `This application enables users to create and manage customizable collections of item recommendations.`,
+    project_link: 'https://recoms-api.onrender.com/',
+  },
+  {
+    image: '/assets/img/projects-images/MetaMate-v0.png',
+    project_title: 'METAMATE-v0',
+    project_description: `MetaMate is a web scraping application designed to retrieve detailed information about any video game.`,
+    project_link: 'local',
   },
 ];
 
