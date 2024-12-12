@@ -85,7 +85,7 @@ export const projectsInfo = [
     image: '/assets/img/projects-images/MetaMate-v0.png',
     project_title: 'METAMATE-v0',
     project_description: `MetaMate is a web scraping application designed to retrieve detailed information about any video game.`,
-    project_link: 'local',
+    project_link: 'javascript:void(0)',
   },
 ];
 

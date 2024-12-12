@@ -131,7 +131,7 @@ function initProjects() {
     const element = projectsInfo[key];
     images[index].style.backgroundImage = `url(${element.image})`;
     //
-    let techList = '';
+    // let techList = '';
 
     // element.technologies_used.forEach((item) => {
     //   techList += createTechElement(item);
@@ -139,9 +139,8 @@ function initProjects() {
     //
     descriptionContainer.innerHTML += projectPaint(
       element.project_title,
-      element.project_description
-      // element.project_link,
-      // techList
+      element.project_description,
+      element.project_link
     );
     //
     images[index].addEventListener('click', (e) => {
@@ -188,13 +187,12 @@ function descriptionProjectCard() {
 
 // > Description Project Templates >
 
-function projectPaint(title, description, link, technologies) {
+function projectPaint(title, description, link) {
   return `
   <div id='project-link-container'>
     <h2 href='${link}'>${title}</h2>
   </div>
   <p>${description}</p>
-  <ul>${technologies}</ul>
   `;
 }
 

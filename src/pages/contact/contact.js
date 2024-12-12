@@ -136,7 +136,7 @@ function initFakeFormFill() {
 
   const messagePop = document.createElement('span');
   messagePop.className = 'pop-container';
-  messagePop.innerText = `This will soon be up and running.`;
+  messagePop.innerText = `My turn...`;
 
   buttonSubmitDOM.appendChild(messagePop);
 

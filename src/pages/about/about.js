@@ -24,7 +24,7 @@ export function initAboutText() {
   completeTextContainer.className = 'complete-text';
 
   const topCap = document.createElement('h2');
-  topCap.textContent = `I AM A FRONT-END WEB DEVELOPER.`;
+  topCap.textContent = `I AM A FULL STACK WEB DEVELOPER.`;
   const botCap = document.createElement('h2');
   botCap.innerHTML = `I LOVE MINIMAL AND BRUTALIST DESIGN.</br>
   I LOVE NATURE, PASTA AND ART.`;

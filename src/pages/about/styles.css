@@ -67,6 +67,7 @@
   opacity: 0;
   overflow: hidden;
   z-index: 1;
+  /* border-top: 1px solid black; */
   /* border-top: 1px solid rgb(0, 0, 0); */
 }
 
@@ -112,6 +113,7 @@
   object-fit: cover;
   object-position: bottom;
   transition: all 1s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.625);
 }
 
 .end-pictures-effect {
